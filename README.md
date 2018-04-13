@@ -1,6 +1,6 @@
 # bServer
 
-![status-dev](https://img.shields.io/badge/status-dev-yellow.svg) ![version-0-0-1](https://img.shields.io/badge/version-0.2.0-blue.svg)
+![status-dev](https://img.shields.io/badge/status-dev-yellow.svg) ![version-0-0-1](https://img.shields.io/badge/version-0.0.1-blue.svg)
 
 ![bServer Logo](http://beremaran.com/bserver_logo2.png)
 
@@ -51,6 +51,18 @@ bServer has no dependencies but heavily uses __*nix__ libraries, so if you are l
         
 I don't created anything that will get bServer installed in your machine yet.
 
+### Deployment
+Directory structure must be as;
+
+    *
+    |   html_error
+    |       403.html
+    |       404.html
+    |   public
+    |       index.html
+    |   bserver
+    |   config.ini
+    |   mime.ini
 
 ## Valgrind Test
 
