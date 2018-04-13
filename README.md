@@ -2,7 +2,7 @@
 
 ![status-dev](https://img.shields.io/badge/status-dev-yellow.svg) ![version-0-0-1](https://img.shields.io/badge/version-0.2.0-blue.svg)
 
-![bServer Logo](http://beremaran.com/bserver_logo.png)
+![bServer Logo](http://beremaran.com/bserver_logo2.png)
 
 A simple, single thread HTTP server, written in C99.
 
