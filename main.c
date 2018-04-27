@@ -368,8 +368,13 @@ void handle_http_request(int remotefd) {
     }
 
     clear_request:
-    fclose(fp);
-    free(buf_start);
+    if (fp != NULL) {
+        fclose(fp);
+    }
+    
+    if (buf_start != NULL) {
+        free(buf_start);
+    }
 }
 
 void dump_remote_addr_info(int remotefd) {
